@@ -1,3 +1,5 @@
+# **📋 CLlaimInsight – AI-Powered Insurance Loss Description Generator**
+
 # 📋 Project Overview
 Claim Insight is an enterprise-grade AI-powered insurance claim assessment platform developed for Value Momentum. The system automates the generation of professional loss descriptions from damage images using multimodal AI (computer vision + NLP). This solution addresses critical industry pain points in insurance claim processing by reducing assessment time, improving consistency, and lowering operational costs.
 
@@ -9,7 +11,7 @@ Claim Insight is an enterprise-grade AI-powered insurance claim assessment platf
 
 # ✨ Key Features
 
-## ✅ Core Requirements Met (Value Momentum Specifications)
+## ✅ Core Requirements Met 
 - Multimodal AI System - Vision + Language models integrated  
 - Image Upload System - Drag & drop interface with real-time validation  
 - Loss Description Generation - Professional insurance-grade paragraphs  
