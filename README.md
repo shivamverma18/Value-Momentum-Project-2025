@@ -65,7 +65,9 @@ https://github.com/user-attachments/assets/ffb78a65-5126-4f29-b410-a5e9266447c8
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
+
+```text
 claim-insight/
 ├── frontend/                 # React + TypeScript application
 │   ├── src/
@@ -98,5 +100,6 @@ claim-insight/
 ├── .env.example              # Environment variables template
 ├── LICENSE                   # MIT License
 └── README.md                 # This file
+
 
 
