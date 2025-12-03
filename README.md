@@ -69,37 +69,43 @@ https://github.com/user-attachments/assets/ffb78a65-5126-4f29-b410-a5e9266447c8
 
 ```text
 claim-insight/
-├── frontend/                 # React + TypeScript application
-│   ├── src/
-│   │   ├── components/       # Reusable UI components
-│   │   ├── pages/            # Application pages
-│   │   ├── services/         # API service calls
-│   │   ├── types/            # TypeScript definitions
-│   │   └── utils/            # Utility functions
-│   ├── public/               # Static assets
-│   └── package.json          # Frontend dependencies
+├── 🐍 app.py                        # Flask application entry point
+├── 🧠 description_generator.py      # NLP loss description generator
+├── 🖼️ image_captioner.py           # Image caption + vision encoder module
+├── 📄 pdf_generator.py             # PDF report generation engine
 │
-├── backend/                  # Python Flask application
-│   ├── app/
-│   │   ├── api/              # API routes and endpoints
-│   │   ├── ai_engine/        # AI/ML processing modules
-│   │   │   ├── vision/       # Computer vision components
-│   │   │   ├── nlp/          # Natural language processing
-│   │   │   └── scoring/      # Severity scoring algorithms
-│   │   ├── models/           # Data models
-│   │   ├── services/         # Business logic
-│   │   └── utils/            # Helper functions
-│   ├── storage/              # File storage management
-│   ├── tests/                # Backend test suite
-│   ├── requirements.txt      # Python dependencies
-│   └── app.py                # Flask application entry point
+├── 📦 frontend/                    # React + TypeScript application
+│   ├── 📂 src/
+│   │   ├── 🧩 components/          # Reusable UI components
+│   │   ├── 📄 pages/               # Application pages
+│   │   ├── 🔌 services/            # API service calls
+│   │   ├── 🗂️ types/               # TypeScript definitions
+│   │   └── 🛠️ utils/               # Utility functions
+│   ├── 📁 public/                  # Static assets
+│   └── 📜 package.json             # Frontend dependencies
 │
-├── docs/                     # Documentation
-├── docker/                   # Docker configuration files
-├── docker-compose.yml        # Multi-container setup
-├── .env.example              # Environment variables template
-├── LICENSE                   # MIT License
-└── README.md                 # This file
+├── 🐍 backend/                     # Python Flask application
+│   ├── 📂 app/
+│   │   ├── 🌐 api/                 # API routes and endpoints
+│   │   ├── 🤖 ai_engine/           # AI/ML processing modules
+│   │   │   ├── 👁️ vision/          # Computer vision components
+│   │   │   ├── 🧠 nlp/             # Natural language processing
+│   │   │   └── 📊 scoring/         # Severity scoring algorithms
+│   │   ├── 🗃️ models/              # Data models
+│   │   ├── ⚙️ services/            # Business logic
+│   │   └── 🛠️ utils/               # Helper functions
+│   ├── 🗄️ storage/                 # File storage management
+│   ├── 🧪 tests/                   # Backend test suite
+│   ├── 📃 requirements.txt         # Python dependencies
+│   └── 🐍 app.py                   # Flask backend entry point
+│
+├── 📘 docs/                        # Documentation
+├── 🐳 docker/                      # Docker configuration files
+├── 🐙 docker-compose.yml           # Multi-container setup
+├── 🧩 .env.example                 # Environment variables template
+├── ⚖️ LICENSE                      # MIT License
+└── 📄 README.md                    # Project README
+
 
 
 
