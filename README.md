@@ -27,3 +27,100 @@ Claim Insight is an enterprise-grade AI-powered insurance claim assessment platf
 ---
 
 # 🏗️ System Architecture
+┌─────────────────────────────────────────────────────────────┐
+│                    Frontend (React + TypeScript)            │
+│  • Drag & drop image upload                                 │
+│  • Real-time form validation                                │
+│  • Responsive UI components                                 │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+┌──────────────────────────────▼───────────────────────────────┐
+│                    Backend API (Python Flask)               │
+│  • REST API endpoints                                       │
+│  • File handling & storage                                  │
+│  • PDF generation engine                                    │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+┌──────────────────────────────▼───────────────────────────────┐
+│                    AI/ML Core Engine                        │
+│  • Computer Vision (OpenCV, PIL)                            │
+│  • Natural Language Processing                              │
+│  • Severity Scoring Algorithms                              │
+│  • Rule-based enhancement engine                            │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+┌──────────────────────────────▼───────────────────────────────┐
+│                    Data Layer                               │
+│  • JSON-based storage                                       │
+│  • Assessment history tracking                              │
+│  • File management system                                   │
+└─────────────────────────────────────────────────────────────┘
+
+
+---
+
+# 🛠️ Technology Stack
+
+## Frontend
+- React 18 with TypeScript - Modern, type-safe UI development  
+- Vite - Fast build tool and development server  
+- Tailwind CSS + ShadCN UI - Professional, responsive styling  
+- React Hook Form + Zod - Robust form validation  
+- Axios - HTTP client for API communication  
+
+## Backend
+- Python Flask - Lightweight, scalable API framework  
+- OpenCV + PIL - Advanced image processing and analysis  
+- ReportLab - Professional PDF generation  
+- Custom AI Models - No external API dependencies (self-contained)  
+- NumPy/SciPy - Scientific computing for damage analysis  
+
+## AI/ML Components
+- Computer Vision Pipeline - Damage detection and classification  
+- NLP Engine - Professional description generation  
+- Severity Scoring - 0-100 scale based on visual evidence  
+- Rule-based Enhancement - Insurance terminology compliance  
+
+## Development & Deployment
+- Docker - Containerization for easy deployment  
+- Git - Version control  
+- Virtual Environment - Python dependency management  
+- Environment Configuration - Secure credential management  
+
+---
+
+# 📁 Project Structure
+claim-insight/
+├── frontend/                 # React + TypeScript application
+│   ├── src/
+│   │   ├── components/       # Reusable UI components
+│   │   ├── pages/            # Application pages
+│   │   ├── services/         # API service calls
+│   │   ├── types/            # TypeScript definitions
+│   │   └── utils/            # Utility functions
+│   ├── public/               # Static assets
+│   └── package.json          # Frontend dependencies
+│
+├── backend/                  # Python Flask application
+│   ├── app/
+│   │   ├── api/              # API routes and endpoints
+│   │   ├── ai_engine/        # AI/ML processing modules
+│   │   │   ├── vision/       # Computer vision components
+│   │   │   ├── nlp/          # Natural language processing
+│   │   │   └── scoring/      # Severity scoring algorithms
+│   │   ├── models/           # Data models
+│   │   ├── services/         # Business logic
+│   │   └── utils/            # Helper functions
+│   ├── storage/              # File storage management
+│   ├── tests/                # Backend test suite
+│   ├── requirements.txt      # Python dependencies
+│   └── app.py                # Flask application entry point
+│
+├── docs/                     # Documentation
+├── docker/                   # Docker configuration files
+├── docker-compose.yml        # Multi-container setup
+├── .env.example              # Environment variables template
+├── LICENSE                   # MIT License
+└── README.md                 # This file
+
+
