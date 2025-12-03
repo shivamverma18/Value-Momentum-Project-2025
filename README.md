@@ -27,7 +27,7 @@ Claim Insight is an enterprise-grade AI-powered insurance claim assessment platf
 ---
 
 # 🏗️ Live Demo
-![VIDEO Value](https://github.com/user-attachments/assets/1eaf8326-ea5a-4f18-ac82-0333a46308c1)
+https://github.com/user-attachments/assets/ffb78a65-5126-4f29-b410-a5e9266447c8
 
 
 
