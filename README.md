@@ -106,6 +106,10 @@ claim-insight/
 ├── ⚖️ LICENSE                      # MIT License
 └── 📄 README.md                    # Project README
 
+```
 
+## 📁 Contributor
+- 🤖 Shivam Verma
+- 🤖 Shaikh Tauhid
 
 
